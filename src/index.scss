@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Red Hat Display", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  width: 100%;
+}
+
+/* media queries */
+// default styles will be for mobile devices till 768px
+
+// for targeting devices greater than 768px should use this media query
+$ipadPortrait: "min-width: 768px";
+
+// for targeting devices greater than 960px should use this media query
+$ipadLandscape: "min-width: 960px";
+
+// for targeting devices greater than 960px should use this media query
+$laptop: "min-width: 1200px";
+
+/*
+example -----------
+body {
+  // for mobile resolution 0px to 768px
+  background-color: lime;
+
+  // for resolutions till 768px to 960px
+  @media ($ipadPortrait) {
+    background-color: orange;
+  }
+
+  // for resolution 960px till 1200px
+  @media ($ipadLandscape) {
+    background-color: red;
+  }
+
+  // for resolution 1200px and more
+  @media ($laptop) {
+    background-color: violet;
+  }
+}
+*/
+
+// common styles will go here
+.container {
+  width: 100%;
+  padding: 12px;
+
+  @media ($ipadPortrait) {
+    padding: 16px;
+  }
+
+  @media ($ipadLandscape) {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  @media ($laptop) {
+    width: 1200px;
+  }
+}
