@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/enhancetw/static/css/main.b9f50c35.css",
+    "main.js": "/enhancetw/static/js/main.7be3a989.js",
+    "static/js/787.8c85cc3c.chunk.js": "/enhancetw/static/js/787.8c85cc3c.chunk.js",
+    "static/media/enhancetw_logo.png": "/enhancetw/static/media/enhancetw_logo.c18113bb3180a5c629ce.png",
+    "index.html": "/enhancetw/index.html",
+    "main.b9f50c35.css.map": "/enhancetw/static/css/main.b9f50c35.css.map",
+    "main.7be3a989.js.map": "/enhancetw/static/js/main.7be3a989.js.map",
+    "787.8c85cc3c.chunk.js.map": "/enhancetw/static/js/787.8c85cc3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9f50c35.css",
+    "static/js/main.7be3a989.js"
+  ]
+}
